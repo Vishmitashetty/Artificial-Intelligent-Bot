@@ -1,0 +1,48 @@
+0,COLLEGE NAME,*,*,Atharva College of Engineering,inquiry.aiml
+0,WHICH COLLEGE YOU ARE SERVING FOR?,*,*,<srai>College Name</srai>,inquiry.aiml
+0,COLLEGE TIMING,*,*,9:00 AM to 5:00 PM,inquiry.aiml
+0,BRANCH,*,*,Computer Engineering,inquiry.aiml
+0,WHICH BRANCH YOU ARE GUIDING?,*,*,Computer Engineering,inquiry.aiml
+0,WHICH BRANCH *?,*,*,Computer Engineering,inquiry.aiml
+0,FEE STRUCTURE,*,*,FOR YEAR 2015-16#NewlineFIRST YEAR  Rs:68#Comma000/-#NewlineSECOND YEAR Rs:65#Comma000/-#NewlineTHIRD YEAR Rs:62#Comma000/-#NewlineFOURTH YEAR Rs:60#Comma000/-,inquiry.aiml
+0,ADDRESS,*,*,Charkop Naka#Comma Malad - Marve Rd#Comma Asmita Jyoti Housing Society#Comma Malad West#Comma Mumbai.,inquiry.aiml
+0,ADDRESS OF COLLEGE,*,*,<srai> ADDRESS </srai>,inquiry.aiml
+0,FEST IN ATHARVA,*,*,TECHITON#NewlineE-WEEK#NewlineIEEE#NewlineRHYTHM#NewlineSPORTS WEEK,inquiry.aiml
+0,TECHNICAL FEST IN ATHARVA,*,*,TECHITON#NewlineIEEE,inquiry.aiml
+0,CULTURAL FEST IN ATHARVA,*,*,RHYTHM,inquiry.aiml
+0,CULTURAL FEST,*,*,RHYTHM,inquiry.aiml
+0,RECENT EVENTS,*,*,NCTAA-2016 IN PARTNERSHIP WITH IJSRD,inquiry.aiml
+0,PLACEMENTS,*,*,INFOSYS#NewlineACCETNURE#NewlineTECH MAHINDRA#NewlineiGATE#NewlineZYCUS#NewlineMERILENT#NewlineICS and lots more..,inquiry.aiml
+0,PLACEMENTS IN ATHARVA,*,*,<srai>PLACEMENTS</srai>,inquiry.aiml
+0,ELECTIVE SUBJECTS,*,*,DIGITAL FORENSIC#NewlineBIG DATA,inquiry.aiml
+0,ELECTIVE SUBJECT,*,*,<srai>ELECTIVE SUBJECTS</srai>,inquiry.aiml
+0,SUBJECTS,*,*,SUBJECTS FOR BE CMPN SEMESTER 8#NewlineDATAWAREHOUSE AND MINING#NewlinePARALLEL DISTRIBUTED COMPUTING#NewlineHUMAN COMPUTER INTERACTION#NewlineDIGITALFORENSIC#NewlineCLOUD COMPUTING#NewlinePROJECT,inquiry.aiml
+0,PRACTICAL SUBJECTS,*,*,CLOUD COMPUTING#NewlinePROJECT,inquiry.aiml
+0,BE CMPN2 CLASS ON MONDAY,*,*,R-5,inquiry.aiml
+0,BE CMPN2 CLASS ON TUESDAY,*,*,R-6,inquiry.aiml
+0,BE CMPN2 CLASS ON WEDNESDAY,*,*,R-6,inquiry.aiml
+0,BE CMPN2 CLASS ON THURSDAY,*,*,R-7,inquiry.aiml
+0,BE CMPN2 CLASS ON FRIDAY,*,*,R-7,inquiry.aiml
+0,BE CMPN1 CLASS ON MONDAY,*,*,R-4,inquiry.aiml
+0,BE CMPN1 CLASS ON TUESDAY,*,*,R-5,inquiry.aiml
+0,BE CMPN1 CLASS ON WEDNESDAY,*,*,R-5,inquiry.aiml
+0,BE CMPN1 CLASS ON THURSDAY,*,*,R-6,inquiry.aiml
+0,BE CMPN1 CLASS ON FRIDAY,*,*,R-6,inquiry.aiml
+0,BE CMPN1 CLASS,*,*,Mention day because class alloted are different for different days,inquiry.aiml
+0,BE CMPN2 CLASS,*,*,Mention day because class alloted are different for different days,inquiry.aiml
+0,<SET>NUMBER</SET> #,HOW OLD ARE YOU,*,<think><set name="age"><star/></set></think>#Newline<srai>MY AGE IS <star/></srai>,inquiry.aiml
+0,INQUIRY LOCATION,*,*,<srai>INQUIRY LOCATION <get name="location"/></srai>,inquiry.aiml
+0,INQUIRY LOCATION WHERE,*,*,Where are you?,inquiry.aiml
+0,INQUIRY LOCATION *,*,*,<srai>RANDOM PICKUP LINE</srai>,inquiry.aiml
+0,INQUIRY NAME,*,*,<srai>INQUIRY NAME <get name="name"/></srai>,inquiry.aiml
+0,INQUIRY NAME *,*,*,<srai>RANDOM PICKUP LINE</srai>,inquiry.aiml
+0,INQUIRY NAME FRIEND,*,*,What is your name?,inquiry.aiml
+0,INQUIRY AGE,*,*,<srai>INQUIRY AGE <get name="age"/></srai>,inquiry.aiml
+0,INQUIRY AGE HOW MANY,*,*,How old are you?,inquiry.aiml
+0,INQUIRY AGE *,*,*,<srai>RANDOM PICKUP LINE</srai>,inquiry.aiml
+0,INQUIRY GENDER,*,*,<srai>INQUIRY GENDER <get name="gender"/></srai>,inquiry.aiml
+0,INQUIRY GENDER UNKNOWN,*,*,Are you a man or a woman?,inquiry.aiml
+0,INQUIRY GENDER *,*,*,<srai>RANDOM PICKUP LINE</srai>,inquiry.aiml
+0,MAN,ARE YOU A MAN OR A WOMAN,*,<srai>MY GENDER IS MALE</srai>,inquiry.aiml
+0,WOMAN,ARE YOU A MAN OR A WOMAN,*,<srai>MY GENDER IS FEMALE</srai>,inquiry.aiml
+0,<SET>GENDER</SET>,ARE YOU A MAN OR A WOMAN,*,<srai>MY GENDER IS <map><name>gendermap</name><star/></map></srai>,inquiry.aiml

@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: inquiry.aiml -->
+<!-- Author: Vishmita Shetty -->
+<!-- Last modified: April 21, 2016 -->
+<!--  -->
+<!-- This AIML file is part of the ALICE2 1.0 chat bot knowledge base. -->
+<!--  -->
+<!-- The ALICE2 brain is Copyright &copy; 2016 by Avyaa Foundation. -->
+<!--  -->
+<!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.avyaa.com -->
+<!--  -->
+<category><pattern>FE</pattern>
+<template>First Year Engineering
+		Fee: 62000/-
+		Branches offered: CMPN,IT,EXTC,ELEX,ELEC
+		HOD: Prof. Poonam Deshpande
+		Eligiblity: 10+2 + CET or JEE or AIEEE</template>
+</category>
+<category><pattern>_ FE</pattern>
+<template><srai> FE </srai></template>
+</category>
+<category><pattern>FE _</pattern>
+<template><srai> FE </srai></template>
+</category>
+<category><pattern>_ FE *</pattern>
+<template><srai> FE </srai></template>
+</category>
+<category><pattern>SE</pattern>
+<template>Second Year Engineering
+		Fee: 62000/-
+		Direct second year addmision Eligiblity: 10+ diploma
+		Branches offered: CMPN,IT,EXTC,ELEX,ELEC
+		HOD: Prof. Mahnedra Patil,Prof. Neelima Phatak, Prof. Jyotsana Gokhale.</template>
+</category>
+<category><pattern>_ SE</pattern>
+<template><srai> SE </srai></template>
+</category>
+<category><pattern>SE _</pattern>
+<template><srai> SE </srai></template>
+</category>
+<category><pattern>_ SE *</pattern>
+<template><srai> SE </srai></template>
+</category>
+<category><pattern>TE</pattern>
+<template>Third Year Engineering
+		Fee: 63000/-
+		Branches offered: CMPN,IT,EXTC,ELEX,ELEC
+		HOD: Prof. Mahnedra Patil,Prof. Neelima Phatak, Prof. Jyotsana Gokhale.</template>
+</category>
+<category><pattern>_ TE</pattern>
+<template><srai> TE </srai></template>
+</category>
+<category><pattern>TE _</pattern>
+<template><srai> TE </srai></template>
+</category>
+<category><pattern>_ TE *</pattern>
+<template><srai> TE </srai></template>
+</category>
+<category><pattern>_ BE</pattern>
+<template><srai> BE </srai></template>
+</category>
+<category><pattern>BE _</pattern>
+<template><srai> BE </srai></template>
+</category>
+<category><pattern>_ BE *</pattern>
+<template><srai> BE </srai></template>
+</category>
+<category><pattern>ATHARVA</pattern>
+<template>Atharva College of Engineering, established in 1999, is today amongst the top engineering colleges in Mumbai. ACE is affiliated to the University of Mumbai and recognised by the Government of Maharashtra and the All India Council of Technical Education (AICTE), New Delhi. ACE, Mumbai offers four year degree courses in various branches of engineering. Admission to all courses is based on merit as per rules and norms laid down by the Director Technical Education ( DTE), Maharashtra State. Engineering college is located in Malad, a western suburb of Mumbai, Maharashtra, India. the college won the National Level Innovation Award twice for the Eweek 2009 and Eweek 2012 Championship</template>
+</category>
+<category><pattern>_ ATHARVA</pattern>
+<template><srai> Atharva </srai></template>
+</category>
+<category><pattern>ATHARVA _</pattern>
+<template><srai> Atharva </srai></template>
+</category>
+<category><pattern>_ ATHARVA *</pattern>
+<template><srai> Atharva </srai></template>
+</category>
+<category><pattern>ATHARVA COLLEGE</pattern>
+<template><srai> Atharva </srai></template>
+</category>
+<category><pattern>ATHARVA COLLEGE OF ENGINEERING</pattern>
+<template><srai> Atharva </srai></template>
+</category>
+<category><pattern>ACE</pattern>
+<template><srai> Atharva </srai></template>
+</category>
+<category><pattern>TECHITON</pattern>
+<template>It's a technical fest of atharva college of engineering conducted in mid of september and has various technical games and competition</template>
+</category>
+<category><pattern>_ TECHITON</pattern>
+<template><srai>Techiton</srai></template>
+</category>
+<category><pattern>TECHITON _</pattern>
+<template><srai>Techiton</srai></template>
+</category>
+<category><pattern>_ TECHITON *</pattern>
+<template><srai>Techiton</srai></template>
+</category>
+<category><pattern>IEEE</pattern>
+<template>It's a International technical fest of atharva college of engineering conducted in mid of march and has various technical games and competition</template>
+</category>
+<category><pattern>_ IEEE</pattern>
+<template><srai>IEEE</srai></template>
+</category>
+<category><pattern>IEEE _</pattern>
+<template><srai>IEEE</srai></template>
+</category>
+<category><pattern>_ IEEE *</pattern>
+<template><srai>IEEE</srai></template>
+</category>
+<category><pattern>RHYTHM</pattern>
+<template>It's a cultural fest of atharva college of engineering conducted in march and has various technical games,events and competition open to all colleges</template>
+</category>
+<category><pattern>_ RHYTHM</pattern>
+<template><srai>Rhythm</srai></template>
+</category>
+<category><pattern>RHYTHM _</pattern>
+<template><srai>Rhythm</srai></template>
+</category>
+<category><pattern>_ RHYTHM *</pattern>
+<template><srai>Rhythm</srai></template>
+</category>
+<category><pattern>E WEEK</pattern>
+<template>It's a fest of atharva college of engineering that encourage leadership and enterprenurship skills in students, conducted in march</template>
+</category>
+<category><pattern>_ E WEEK</pattern>
+<template><srai>E week</srai></template>
+</category>
+<category><pattern>E WEEK _</pattern>
+<template><srai>E week</srai></template>
+</category>
+<category><pattern>_ E WEEK *</pattern>
+<template><srai>E week</srai></template>
+</category>
+<category><pattern>COMMITTES</pattern>
+<template>CodeStrike
+		CSI
+		IEEE
+		NEN
+		Rhythm
+		Student Council</template>
+</category>
+<category><pattern>_ COMMITTES</pattern>
+<template><srai>committes</srai></template>
+</category>
+<category><pattern>_ COMMITTES *</pattern>
+<template><srai>committes</srai></template>
+</category>
+<category><pattern>COMMITTES _</pattern>
+<template><srai>committes</srai></template>
+</category>
+<category><pattern>COMMITTE</pattern>
+<template><srai>committes</srai></template>
+</category>
+<category><pattern>FEES</pattern>
+<template><srai>FEE STRUCTURE</srai></template>
+</category>
+<category><pattern>_ FEES</pattern>
+<template><srai>FEE STRUCTURE</srai></template>
+</category>
+<category><pattern>FEES _</pattern>
+<template><srai>FEE STRUCTURE</srai></template>
+</category>
+<category><pattern>_ FEES *</pattern>
+<template><srai>FEE STRUCTURE</srai></template>
+</category>
+<category><pattern>FESTS</pattern>
+<template>TECHITON
+E-WEEK
+IEEE
+RHYTHM
+SPORTS WEEK</template>
+</category>
+<category><pattern>TECH FEST</pattern>
+<template>TECHITON
+IEEE</template>
+</category>
+<category><pattern>BE CMPN2</pattern>
+<template>Be specific what you want to know about be cmpn2</template>
+</category>
+<category><pattern>BE CMPN1</pattern>
+<template>Be specific what you want to know about be cmpn1</template>
+</category>
+<category><pattern>_ INCHARGE * CMPN2 *</pattern>
+<template>Prof. Krishnanjali Shinde</template>
+</category>
+<category><pattern>_ INCHARGE * CMPN1 *</pattern>
+<template>Prof. Suvarna Pansambal</template>
+</category>
+<category><pattern>TIMETABLE</pattern>
+<template>give input in the format day and time eg: Monday 9 am</template>
+</category>
+<category><pattern>_ TIMETABLE</pattern>
+<template><srai>timetable</srai></template>
+</category>
+<category><pattern>TIMETABLE _</pattern>
+<template><srai>timetable</srai></template>
+</category>
+<category><pattern>_ TIMETABLE *</pattern>
+<template><srai>timetable</srai></template>
+</category>
+<category><pattern>_ MONDAY</pattern>
+<template><srai>timetable</srai></template>
+</category>
+<category><pattern>MONDAY 9 AM</pattern>
+<template>DWM</template>
+</category>
+<category><pattern>MONDAY 10 AM</pattern>
+<template>HMI</template>
+</category>
+<category><pattern>MONDAY 11 AM</pattern>
+<template>DF</template>
+</category>
+<category><pattern>MONDAY 12 PM</pattern>
+<template>Lunch</template>
+</category>
+<category><pattern>MONDAY 1 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>MONDAY 2 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>MONDAY 3 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>MONDAY 4 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>MONDAY 5 PM</pattern>
+<template>back to home!!</template>
+</category>
+<category><pattern>_ TUESDAY</pattern>
+<template><srai>timetable</srai></template>
+</category>
+<category><pattern>TUESDAY 9 AM</pattern>
+<template>DWM</template>
+</category>
+<category><pattern>TUESDAY 10 AM</pattern>
+<template>HMI</template>
+</category>
+<category><pattern>TUESDAY 11 AM</pattern>
+<template>DF</template>
+</category>
+<category><pattern>TUESDAY 12 PM</pattern>
+<template>Lunch</template>
+</category>
+<category><pattern>TUESDAY 1 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>TUESDAY 2 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>TUESDAY 3 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>TUESDAY 4 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>TUESDAY 5 PM</pattern>
+<template>back to home!!</template>
+</category>
+<category><pattern>_ WEDNESDAY</pattern>
+<template><srai>timetable</srai></template>
+</category>
+<category><pattern>WEDNESDAY 9 AM</pattern>
+<template>DWM</template>
+</category>
+<category><pattern>WEDNESDAY 10 AM</pattern>
+<template>HMI</template>
+</category>
+<category><pattern>WEDNESDAY 11 AM</pattern>
+<template>DF</template>
+</category>
+<category><pattern>WEDNESDAY 12 PM</pattern>
+<template>Lunch</template>
+</category>
+<category><pattern>WEDNESDAY 1 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>WEDNESDAY 2 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>WEDNESDAY 3 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>WEDNESDAY 4 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>WEDNESDAY 5 PM</pattern>
+<template>back to home!!</template>
+</category>
+<category><pattern>_ THURSDAY</pattern>
+<template><srai>timetable</srai></template>
+</category>
+<category><pattern>THURSDAY 9 AM</pattern>
+<template>DWM</template>
+</category>
+<category><pattern>THURSDAY 10 AM</pattern>
+<template>HMI</template>
+</category>
+<category><pattern>THURSDAY 11 AM</pattern>
+<template>DF</template>
+</category>
+<category><pattern>THURSDAY 12 PM</pattern>
+<template>Lunch</template>
+</category>
+<category><pattern>THURSDAY 1 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>THURSDAY 2 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>THURSDAY 3 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>THURSDAY 4 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>THURSDAY 5 PM</pattern>
+<template>back to home!!</template>
+</category>
+<category><pattern>_ FRIDAY</pattern>
+<template><srai>timetable</srai></template>
+</category>
+<category><pattern>FRIDAY 9 AM</pattern>
+<template>DWM</template>
+</category>
+<category><pattern>FRIDAY 10 AM</pattern>
+<template>HMI</template>
+</category>
+<category><pattern>FRIDAY 11 AM</pattern>
+<template>DF</template>
+</category>
+<category><pattern>FRIDAY 12 PM</pattern>
+<template>Lunch</template>
+</category>
+<category><pattern>FRIDAY 1 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>FRIDAY 2 PM</pattern>
+<template>HMI prac lab 6</template>
+</category>
+<category><pattern>FRIDAY 3 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>FRIDAY 4 PM</pattern>
+<template>DF prac lab 8</template>
+</category>
+<category><pattern>FRIDAY 5 PM</pattern>
+<template>back to home!!</template>
+</category>
+<category><pattern>SATURDAY</pattern>
+<template>Off at Atharva!!</template>
+</category>
+<category><pattern>SUNDAY</pattern>
+<template>Off at Atharva!!</template>
+</category>
+<category><pattern>_ SATURDAY</pattern>
+<template><srai>Saturday</srai></template>
+</category>
+<category><pattern>SATURDAY _</pattern>
+<template><srai>Saturday</srai></template>
+</category>
+<category><pattern>_ SATURDAY *</pattern>
+<template><srai>Saturday</srai></template>
+</category>
+<category><pattern>_ SUNDAY</pattern>
+<template><srai>Sunday</srai></template>
+</category>
+<category><pattern>SUNDAY _</pattern>
+<template><srai>Sunday</srai></template>
+</category>
+<category><pattern>_ SUNDAY *</pattern>
+<template><srai>Sunday</srai></template>
+</category>
+<category><pattern>COLLEGE NAME</pattern>
+<template>Atharva College of Engineering</template>
+</category>
+<category><pattern>_ COLLEGE NAME</pattern>
+<template><srai>COLLEGE NAME</srai></template>
+</category>
+<category><pattern>COLLEGE NAME _</pattern>
+<template><srai>COLLEGE NAME</srai></template>
+</category>
+<category><pattern>_ COLLEGE NAME *</pattern>
+<template><srai>COLLEGE NAME</srai></template>
+</category>
+<category><pattern>WHICH COLLEGE YOU ARE SERVING FOR?</pattern>
+<template><srai>College Name</srai></template>
+</category>
+<category><pattern>COLLEGE TIMING</pattern>
+<template>9:00 AM to 5:00 PM</template>
+</category>
+<category><pattern>_ COLLEGE TIMING</pattern>
+<template><srai>COLLEGE TIMING</srai></template>
+</category>
+<category><pattern>COLLEGE TIMING _</pattern>
+<template><srai>COLLEGE TIMING</srai></template>
+</category>
+<category><pattern>_ COLLEGE TIMING *</pattern>
+<template><srai>COLLEGE TIMING</srai></template>
+</category>
+<category><pattern>BRANCH</pattern>
+<template>I am guiding Computer Engineering</template>
+</category>
+<category><pattern>_ BRANCH</pattern>
+<template><srai>BRANCH</srai></template>
+</category>
+<category><pattern>BRANCH _</pattern>
+<template><srai>BRANCH</srai></template>
+</category>
+<category><pattern>_ BRANCH *</pattern>
+<template><srai>BRANCH</srai></template>
+</category>
+<category><pattern>WHICH BRANCH YOU ARE GUIDING?</pattern>
+<template>Computer Engineering</template>
+</category>
+<category><pattern>WHICH BRANCH *?</pattern>
+<template>Computer Engineering</template>
+</category>
+<category><pattern>FEE STRUCTURE</pattern>
+<template>FOR YEAR 2015-16
+FIRST YEAR  Rs:68,000/-
+SECOND YEAR Rs:65,000/-
+THIRD YEAR Rs:62,000/-
+FOURTH YEAR Rs:60,000/-</template>
+</category>
+<category><pattern>ADDRESS</pattern>
+<template>Charkop Naka, Malad - Marve Rd, Asmita Jyoti Housing Society, Malad West, Mumbai.</template>
+</category>
+<category><pattern>_ ADDRESS</pattern>
+<template><srai> ADDRESS </srai></template>
+</category>
+<category><pattern>_ ADDRESS *</pattern>
+<template><srai> ADDRESS </srai></template>
+</category>
+<category><pattern>ADDRESS _</pattern>
+<template><srai> ADDRESS </srai></template>
+</category>
+<category><pattern>FEST IN ATHARVA</pattern>
+<template>TECHITON
+E-WEEK
+IEEE
+RHYTHM
+SPORTS WEEK</template>
+</category>
+<category><pattern>TECHNICAL</pattern>
+<template>TECHITON
+IEEE</template>
+</category>
+<category><pattern>_ TECHNICAL</pattern>
+<template>TECHNICAL</template>
+</category>
+<category><pattern>TECHNICAL _</pattern>
+<template>TECHNICAL</template>
+</category>
+<category><pattern>_ TECHNICAL *</pattern>
+<template>TECHNICAL</template>
+</category>
+<category><pattern>CULTURAL</pattern>
+<template>RHYTHM</template>
+</category>
+<category><pattern>_ CULTURAL *</pattern>
+<template><srai>CULTURAL </srai></template>
+</category>
+<category><pattern>_ CULTURAL</pattern>
+<template><srai>CULTURAL </srai></template>
+</category>
+<category><pattern>CULTURAL _</pattern>
+<template><srai>CULTURAL </srai></template>
+</category>
+<category><pattern>EVENTS</pattern>
+<template>NCTAA-2016 IN PARTNERSHIP WITH IJSRD
+ROBOTICS WORKSHOP
+i- Mac Training
+Seminar by Honrable Nitin Gadhkari</template>
+</category>
+<category><pattern>_ EVENTS</pattern>
+<template><srai> EVENTS </srai></template>
+</category>
+<category><pattern>EVENTS _</pattern>
+<template><srai> EVENTS </srai></template>
+</category>
+<category><pattern>_ EVENTS *</pattern>
+<template><srai>EVENTS </srai></template>
+</category>
+<category><pattern>PLACEMENTS</pattern>
+<template>INFOSYS
+ACCETNURE
+TECH MAHINDRA
+iGATE
+ZYCUS
+MERILENT
+ICS and lots more..</template>
+</category>
+<category><pattern>_ PLACEMENTS</pattern>
+<template><srai>PLACEMENTS</srai></template>
+</category>
+<category><pattern>PLACEMENTS _</pattern>
+<template><srai>PLACEMENTS</srai></template>
+</category>
+<category><pattern>_ PLACEMENTS *</pattern>
+<template><srai>PLACEMENTS</srai></template>
+</category>
+<category><pattern>ELECTIVE</pattern>
+<template>DIGITAL FORENSIC
+BIG DATA</template>
+</category>
+<category><pattern>_ ELECTIVE</pattern>
+<template><srai>ELECTIVE </srai></template>
+</category>
+<category><pattern>ELECTIVE _</pattern>
+<template><srai>ELECTIVE </srai></template>
+</category>
+<category><pattern>_ ELECTIVE *</pattern>
+<template><srai>ELECTIVE </srai></template>
+</category>
+<category><pattern>ELECTIVE SUBJECT</pattern>
+<template><srai>ELECTIVE </srai></template>
+</category>
+<category><pattern>SUBJECTS</pattern>
+<template>SUBJECTS FOR BE CMPN SEMESTER 8
+DATAWAREHOUSE AND MINING
+PARALLEL DISTRIBUTED COMPUTING
+HUMAN COMPUTER INTERACTION
+DIGITALFORENSIC
+CLOUD COMPUTING
+PROJECT</template>
+</category>
+<category><pattern>_ SUBJECTS</pattern>
+<template><srai>SUBJECTS</srai></template>
+</category>
+<category><pattern>SUBJECTS _</pattern>
+<template><srai>SUBJECTS</srai></template>
+</category>
+<category><pattern>_ SUBJECTS *</pattern>
+<template><srai>SUBJECTS</srai></template>
+</category>
+<category><pattern>PRACTICAL</pattern>
+<template>CLOUD COMPUTING
+PROJECT</template>
+</category>
+<category><pattern>_ PRACTICAL</pattern>
+<template><srai>PRACTICAL</srai></template>
+</category>
+<category><pattern>PRACTICAL _</pattern>
+<template><srai>PRACTICAL</srai></template>
+</category>
+<category><pattern>_ PRACTICAL *</pattern>
+<template><srai>PRACTICAL</srai></template>
+</category>
+<category><pattern>VISHMITA</pattern>
+<template>Vishmita born and brought up in mumbai,She is currently pursuing bachelor in Computer Engineering. Interested in feild of Virtual and Augmented reality, Teleportation and Artificial Intelligence and also she is my bot master.</template>
+</category>
+<category><pattern>_ VISHMITA</pattern>
+<template><srai>Vishmita</srai></template>
+</category>
+<category><pattern>VISHMITA _</pattern>
+<template><srai>Vishmita</srai></template>
+</category>
+<category><pattern>_ VISHMITA *</pattern>
+<template><srai>Vishmita</srai></template>
+</category>
+<category><pattern>BE CMPN2 CLASS ON MONDAY</pattern>
+<template>R-5</template>
+</category>
+<category><pattern>BE CMPN2 CLASS ON TUESDAY</pattern>
+<template>R-6</template>
+</category>
+<category><pattern>BE CMPN2 CLASS ON WEDNESDAY</pattern>
+<template>R-6</template>
+</category>
+<category><pattern>BE CMPN2 CLASS ON THURSDAY</pattern>
+<template>R-7</template>
+</category>
+<category><pattern>BE CMPN2 CLASS ON FRIDAY</pattern>
+<template>R-7</template>
+</category>
+<category><pattern>BE CMPN1 CLASS ON MONDAY</pattern>
+<template>R-4</template>
+</category>
+<category><pattern>BE CMPN1 CLASS ON TUESDAY</pattern>
+<template>R-5</template>
+</category>
+<category><pattern>BE CMPN1 CLASS ON WEDNESDAY</pattern>
+<template>R-5</template>
+</category>
+<category><pattern>BE CMPN1 CLASS ON THURSDAY</pattern>
+<template>R-6</template>
+</category>
+<category><pattern>BE CMPN1 CLASS ON FRIDAY</pattern>
+<template>R-6</template>
+</category>
+<category><pattern>BE CMPN1 CLASS</pattern>
+<template>Mention day because class alloted are different for different days</template>
+</category>
+<category><pattern>BE CMPN2 CLASS</pattern>
+<template>Mention day because class alloted are different for different days</template>
+</category>
+<category><pattern><set>number</set> #</pattern><that>HOW OLD ARE YOU</that>
+<template><think><set name="age"><star/></set></think>
+<srai>MY AGE IS <star/></srai></template>
+</category>
+<category><pattern>INQUIRY LOCATION</pattern>
+<template><srai>INQUIRY LOCATION <get name="location"/></srai></template>
+</category>
+<category><pattern>INQUIRY LOCATION WHERE</pattern>
+<template>Where are you?</template>
+</category>
+<category><pattern>INQUIRY LOCATION *</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template>
+</category>
+<category><pattern>INQUIRY NAME</pattern>
+<template><srai>INQUIRY NAME <get name="name"/></srai></template>
+</category>
+<category><pattern>INQUIRY NAME *</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template>
+</category>
+<category><pattern>INQUIRY NAME FRIEND</pattern>
+<template>What is your name?</template>
+</category>
+<category><pattern>INQUIRY AGE</pattern>
+<template><srai>INQUIRY AGE <get name="age"/></srai></template>
+</category>
+<category><pattern>INQUIRY AGE HOW MANY</pattern>
+<template>How old are you?</template>
+</category>
+<category><pattern>INQUIRY AGE *</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template>
+</category>
+<category><pattern>INQUIRY GENDER</pattern>
+<template><srai>INQUIRY GENDER <get name="gender"/></srai></template>
+</category>
+<category><pattern>INQUIRY GENDER UNKNOWN</pattern>
+<template>Are you a man or a woman?</template>
+</category>
+<category><pattern>INQUIRY GENDER *</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template>
+</category>
+<category><pattern>MAN</pattern><that>ARE YOU A MAN OR A WOMAN</that>
+<template><srai>MY GENDER IS MALE</srai></template>
+</category>
+<category><pattern>WOMAN</pattern><that>ARE YOU A MAN OR A WOMAN</that>
+<template><srai>MY GENDER IS FEMALE</srai></template>
+</category>
+<category><pattern><set>gender</set></pattern><that>ARE YOU A MAN OR A WOMAN</that>
+<template><srai>MY GENDER IS <map><name>gendermap</name><star/></map></srai></template>
+</category>
+</aiml>
